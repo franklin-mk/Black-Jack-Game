@@ -1,0 +1,53 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/s-l1600.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(218, 184, 32);
+    font-size: 50px;
+    text-shadow: 2px 4px 6px rgba(221, 32, 32, 0.5);
+
+}
+
+#cards-el,
+#sum-el{
+    color: rgb(18, 237, 234);
+}
+
+#message-el {
+    font-style: italic;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #016f32;
+}
+
+button {
+    color: #103e25;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: 2px green dashed;
+}
